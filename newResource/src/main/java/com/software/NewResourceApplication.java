@@ -1,9 +1,10 @@
 package com.software;
 
-import javafx.application.Application;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
+
+import javax.activation.MailcapCommandMap;
 
 /**
  * Created with IntelliJ IDEA.
@@ -14,8 +15,8 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
  */
 @SpringBootApplication
 @EnableResourceServer
-public class OAuthApplication {
+public class NewResourceApplication {
     public static void main(String[] args) {
-        SpringApplication.run(OAuthApplication.class, args);
+        SpringApplication.run(NewResourceApplication.class, args);
     }
 }
